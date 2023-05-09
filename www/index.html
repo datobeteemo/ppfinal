@@ -1,0 +1,54 @@
+<script src="https://cdn.jsdelivr.net/gh/netizenorg/netnet-standard-library/build/nn.min.js"></script>
+<script>
+	
+	function randomBG () {
+		const rc = nn.randomColor()
+		document.body.style.backgroundColor = rc
+	}
+
+	// async function randomDogBG () {
+	// 	const req = await window.fetch('https://dog.ceo/api/breeds/image/random')
+	// 	const data = await req.json()
+	// 	console.log(data)
+	// }
+
+	async function addRandomDog () {
+		const req = await window.fetch('https://dog.ceo/api/breeds/image/random')
+		const data = await req.json()
+		const img = document.createElement('img')
+		img.src = data.message
+		img.style.width = '100px'
+		document.body.appendChild(img)
+	}
+
+	// async function getWeather () {
+	// 	const r = Math.random() * 100
+	// 	const url = ``
+	// }
+
+	async function sonicEnv (){
+		const gpsURL = 'https://location.services.mozilla.com/v1/geolocate?key=test'
+		const gpsReq = await window.fetch(gpsURL)
+		const gps = await gpsReq.json()
+		const data = {
+			lat: gps.location.lat, lng: gps.location.lng
+		}
+		const opt = {
+			method: "POST", 
+			headers: {
+      			"Content-Type": "application/json",
+      		},
+      		body: JSON.stringify(data)
+		}
+		const post = await window.fetch(`/api/save-gps`, opt)
+		const res = await post.json()
+		console.log(res)
+	}
+
+
+	window.addEventListener('load', randomBG)
+	window.addEventListener('click', addRandomDog)
+	window.addEventListener('load', sonicEnv)
+
+
+</script>

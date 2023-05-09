@@ -1,0 +1,23 @@
+{
+  "name": "web-app-demo",
+  "version": "1.0.0",
+  "description": "demonstration of various APIs and concepts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datobeteemo/web-app-demos.git"
+  },
+  "author": "Daniel Tseng <dtseng@artic.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datobeteemo/web-app-demos/issues"
+  },
+  "homepage": "https://github.com/datobeteemo/web-app-demos#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

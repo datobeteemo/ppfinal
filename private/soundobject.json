@@ -1,0 +1,71 @@
+[	
+	{
+	"lat": 42.046814858901314, 
+    "lon": -87.68802067448502,
+    "src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200529160949/IMG_3611.m4a",
+    "name": "chicagoevanston"
+	},
+
+	{
+	"lat": 41.10631759973013, 
+	"lon": -72.36519898609667,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200517134015/New-Recording-3-2.m4a",
+	"name": "greenportnewyork"
+	},
+
+	{
+	"lat": 24.902155164121353, 
+	"lon": 120.98764788049233,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200528102248/HinchuCounty-Merck-Taiwan-DawnChorus-20200526-online-audio-converter.com_.mp3",
+	"name": "taiwanhsinchu",
+	},
+
+	{
+	"lat": 43.05455924277216, 
+	"lon": 141.31065573157963,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200531073053/Dawn-Chorus%40Maruyamashrine-20200531-041000.wav",
+	"name": "japansapporo"
+	},
+
+	{
+	"lat": 64.15029374106804,
+	"lon": -21.521688908174273,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200717130129/TESTFILE_WAV.wav",
+	"name": "iceland",
+	},
+
+	{
+	"lat":70.05356164639367, 
+	"lon":22.65790192152841,
+	"src": "https://coreo.s3.amazonaws.com/462/63a89b4b58ba-1654294030910-recording_0dbe5829a_c604_47d7_af92_bd0114f3ebac2196364312990262460.wav",
+	"norway"
+	},
+
+	{
+	"lat": 32.78437172954523, 
+	"lon": -16.876547284787407,
+	"src": "https://coreo.s3.amazonaws.com/462/50222d0c5d5f-1653716712888-45B6002D-96BA-421C-B7EB-DF6577C6C7D9_1recording.wav",
+	"portugalmadeira"
+	},
+	
+	{
+	"lat": -37.0985034529078, 
+	"lon": -12.278284159924878,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20210201232727/JCleeland_TristanAlbatross.m4a",
+	"name": "edinburghofthesevenseas"
+	},
+
+	{
+	"lat": 32.769281315833894, 
+	"lon": 45.60990066652383,
+	"src": "https://coreo.s3.amazonaws.com/462/7e9755cafd73-1621851853115-recording_f0fd5df0_e1d6_4066_8bd1_6ff9c0ba150f114846217980534934.wav",
+	"name": "iraq"
+	},
+
+	{
+	"lat": -43.5060480746068,
+	"lon": 172.60517027257256,
+	"src": "https://coreo.s3.eu-west-1.amazonaws.com/462/import/live/20200524110756/AUD-20200523-WA0000.mp3",
+	"name": "newzealandchristchurch"
+	}
+]
